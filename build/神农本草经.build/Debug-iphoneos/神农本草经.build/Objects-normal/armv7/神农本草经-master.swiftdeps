@@ -1,0 +1,11 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "7232508b5ded1725c59de0a648507387"
+inputs: 
+- "/Users/yuxiangtang1/Documents/IOS Programming/\u795E\u519C\u672C\u8349\u7ECF/\u795E\u519C\u672C\u8349\u7ECF/RootViewController.swift"
+- "/Users/yuxiangtang1/Documents/IOS Programming/\u795E\u519C\u672C\u8349\u7ECF/\u795E\u519C\u672C\u8349\u7ECF/ViewController.swift"
+- "/Users/yuxiangtang1/Documents/IOS Programming/\u795E\u519C\u672C\u8349\u7ECF/\u795E\u519C\u672C\u8349\u7ECF/AppDelegate.swift"
+- "/Users/yuxiangtang1/Documents/IOS Programming/\u795E\u519C\u672C\u8349\u7ECF/\u795E\u519C\u672C\u8349\u7ECF/MyNavViewController.swift"
+- "/Users/yuxiangtang1/Documents/IOS Programming/\u795E\u519C\u672C\u8349\u7ECF/\u795E\u519C\u672C\u8349\u7ECF/Herb.swift"
+- "/Users/yuxiangtang1/Documents/IOS Programming/\u795E\u519C\u672C\u8349\u7ECF/\u795E\u519C\u672C\u8349\u7ECF/IndividualViewController.swift"
+- "/Users/yuxiangtang1/Documents/IOS Programming/\u795E\u519C\u672C\u8349\u7ECF/\u795E\u519C\u672C\u8349\u7ECF/HerbData.swift"
+- "/Users/yuxiangtang1/Documents/IOS Programming/\u795E\u519C\u672C\u8349\u7ECF/\u795E\u519C\u672C\u8349\u7ECF/MyTableViewCell.swift"

@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5097EA71BAA986C00D7E3FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5097EA61BAA986C00D7E3FD /* AppDelegate.swift */; };
+		F5097EAA1BAA986C00D7E3FD /* _____.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5097EA81BAA986C00D7E3FD /* _____.xcdatamodeld */; };
+		F5097EAC1BAA986C00D7E3FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5097EAB1BAA986C00D7E3FD /* ViewController.swift */; };
+		F5097EAF1BAA986C00D7E3FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5097EAD1BAA986C00D7E3FD /* Main.storyboard */; };
+		F5097EB11BAA986C00D7E3FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5097EB01BAA986C00D7E3FD /* Images.xcassets */; };
+		F5097EB41BAA986C00D7E3FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5097EB21BAA986C00D7E3FD /* LaunchScreen.xib */; };
+		F5097EC01BAA986C00D7E3FD /* _____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5097EBF1BAA986C00D7E3FD /* _____Tests.swift */; };
+		F5097ECC1BAA9BCB00D7E3FD /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5097ECB1BAA9BCB00D7E3FD /* RootViewController.swift */; };
+		F5097ECE1BAA9BEE00D7E3FD /* MyNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5097ECD1BAA9BEE00D7E3FD /* MyNavViewController.swift */; };
+		F5097ED01BAA9CD700D7E3FD /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5097ECF1BAA9CD700D7E3FD /* MyTableViewCell.swift */; };
+		F5097ED41BABCDFB00D7E3FD /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = F5097ED21BABCDFB00D7E3FD /* pinyin.c */; };
+		F5711DC41BC75A7500572911 /* Herb.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5711DC31BC75A7500572911 /* Herb.swift */; };
+		F5711DF71BC7658F00572911 /* HerbData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5711DF61BC7658F00572911 /* HerbData.swift */; };
+		F5E65E1B1BC89DE500E51DBB /* IndividualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E65E1A1BC89DE500E51DBB /* IndividualViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5097EBA1BAA986C00D7E3FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5097E991BAA986C00D7E3FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5097EA01BAA986C00D7E3FD;
+			remoteInfo = "神农本草经";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5097EA11BAA986C00D7E3FD /* 神农本草经.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "神农本草经.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5097EA51BAA986C00D7E3FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5097EA61BAA986C00D7E3FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5097EA91BAA986C00D7E3FD /* _____.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "_____.xcdatamodel"; sourceTree = "<group>"; };
+		F5097EAB1BAA986C00D7E3FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5097EAE1BAA986C00D7E3FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5097EB01BAA986C00D7E3FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F5097EB31BAA986C00D7E3FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F5097EB91BAA986C00D7E3FD /* 神农本草经Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "神农本草经Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5097EBE1BAA986C00D7E3FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5097EBF1BAA986C00D7E3FD /* _____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____Tests.swift"; sourceTree = "<group>"; };
+		F5097ECB1BAA9BCB00D7E3FD /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		F5097ECD1BAA9BEE00D7E3FD /* MyNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavViewController.swift; sourceTree = "<group>"; };
+		F5097ECF1BAA9CD700D7E3FD /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		F5097ED11BABCDFB00D7E3FD /* 神农本草经-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "神农本草经-Bridging-Header.h"; sourceTree = "<group>"; };
+		F5097ED21BABCDFB00D7E3FD /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
+		F5097ED31BABCDFB00D7E3FD /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
+		F5711DC31BC75A7500572911 /* Herb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Herb.swift; sourceTree = "<group>"; };
+		F5711DF61BC7658F00572911 /* HerbData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HerbData.swift; sourceTree = "<group>"; };
+		F5E65E1A1BC89DE500E51DBB /* IndividualViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndividualViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5097E9E1BAA986C00D7E3FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5097EB61BAA986C00D7E3FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5097E981BAA986C00D7E3FD = {
+			isa = PBXGroup;
+			children = (
+				F5097EA31BAA986C00D7E3FD /* 神农本草经 */,
+				F5097EBC1BAA986C00D7E3FD /* 神农本草经Tests */,
+				F5097EA21BAA986C00D7E3FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5097EA21BAA986C00D7E3FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5097EA11BAA986C00D7E3FD /* 神农本草经.app */,
+				F5097EB91BAA986C00D7E3FD /* 神农本草经Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5097EA31BAA986C00D7E3FD /* 神农本草经 */ = {
+			isa = PBXGroup;
+			children = (
+				F5097EA61BAA986C00D7E3FD /* AppDelegate.swift */,
+				F5097EAB1BAA986C00D7E3FD /* ViewController.swift */,
+				F5097ECB1BAA9BCB00D7E3FD /* RootViewController.swift */,
+				F5E65E1A1BC89DE500E51DBB /* IndividualViewController.swift */,
+				F5711DF61BC7658F00572911 /* HerbData.swift */,
+				F5097ECF1BAA9CD700D7E3FD /* MyTableViewCell.swift */,
+				F5097ECD1BAA9BEE00D7E3FD /* MyNavViewController.swift */,
+				F5711DC31BC75A7500572911 /* Herb.swift */,
+				F5097EAD1BAA986C00D7E3FD /* Main.storyboard */,
+				F5097EB01BAA986C00D7E3FD /* Images.xcassets */,
+				F5097EB21BAA986C00D7E3FD /* LaunchScreen.xib */,
+				F5097EA81BAA986C00D7E3FD /* _____.xcdatamodeld */,
+				F5097EA41BAA986C00D7E3FD /* Supporting Files */,
+				F5097ED11BABCDFB00D7E3FD /* 神农本草经-Bridging-Header.h */,
+				F5097ED31BABCDFB00D7E3FD /* pinyin.h */,
+				F5097ED21BABCDFB00D7E3FD /* pinyin.c */,
+			);
+			path = "神农本草经";
+			sourceTree = "<group>";
+		};
+		F5097EA41BAA986C00D7E3FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5097EA51BAA986C00D7E3FD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5097EBC1BAA986C00D7E3FD /* 神农本草经Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F5097EBF1BAA986C00D7E3FD /* _____Tests.swift */,
+				F5097EBD1BAA986C00D7E3FD /* Supporting Files */,
+			);
+			path = "神农本草经Tests";
+			sourceTree = "<group>";
+		};
+		F5097EBD1BAA986C00D7E3FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5097EBE1BAA986C00D7E3FD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5097EA01BAA986C00D7E3FD /* 神农本草经 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5097EC31BAA986C00D7E3FD /* Build configuration list for PBXNativeTarget "神农本草经" */;
+			buildPhases = (
+				F5097E9D1BAA986C00D7E3FD /* Sources */,
+				F5097E9E1BAA986C00D7E3FD /* Frameworks */,
+				F5097E9F1BAA986C00D7E3FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "神农本草经";
+			productName = "神农本草经";
+			productReference = F5097EA11BAA986C00D7E3FD /* 神农本草经.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5097EB81BAA986C00D7E3FD /* 神农本草经Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5097EC61BAA986C00D7E3FD /* Build configuration list for PBXNativeTarget "神农本草经Tests" */;
+			buildPhases = (
+				F5097EB51BAA986C00D7E3FD /* Sources */,
+				F5097EB61BAA986C00D7E3FD /* Frameworks */,
+				F5097EB71BAA986C00D7E3FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5097EBB1BAA986C00D7E3FD /* PBXTargetDependency */,
+			);
+			name = "神农本草经Tests";
+			productName = "神农本草经Tests";
+			productReference = F5097EB91BAA986C00D7E3FD /* 神农本草经Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5097E991BAA986C00D7E3FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Yuxiang Tang";
+				TargetAttributes = {
+					F5097EA01BAA986C00D7E3FD = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F5097EB81BAA986C00D7E3FD = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F5097EA01BAA986C00D7E3FD;
+					};
+				};
+			};
+			buildConfigurationList = F5097E9C1BAA986C00D7E3FD /* Build configuration list for PBXProject "神农本草经" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5097E981BAA986C00D7E3FD;
+			productRefGroup = F5097EA21BAA986C00D7E3FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5097EA01BAA986C00D7E3FD /* 神农本草经 */,
+				F5097EB81BAA986C00D7E3FD /* 神农本草经Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5097E9F1BAA986C00D7E3FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5097EAF1BAA986C00D7E3FD /* Main.storyboard in Resources */,
+				F5097EB41BAA986C00D7E3FD /* LaunchScreen.xib in Resources */,
+				F5097EB11BAA986C00D7E3FD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5097EB71BAA986C00D7E3FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5097E9D1BAA986C00D7E3FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5097ED41BABCDFB00D7E3FD /* pinyin.c in Sources */,
+				F5097ECC1BAA9BCB00D7E3FD /* RootViewController.swift in Sources */,
+				F5097EAC1BAA986C00D7E3FD /* ViewController.swift in Sources */,
+				F5097EA71BAA986C00D7E3FD /* AppDelegate.swift in Sources */,
+				F5097EAA1BAA986C00D7E3FD /* _____.xcdatamodeld in Sources */,
+				F5097ECE1BAA9BEE00D7E3FD /* MyNavViewController.swift in Sources */,
+				F5711DC41BC75A7500572911 /* Herb.swift in Sources */,
+				F5E65E1B1BC89DE500E51DBB /* IndividualViewController.swift in Sources */,
+				F5711DF71BC7658F00572911 /* HerbData.swift in Sources */,
+				F5097ED01BAA9CD700D7E3FD /* MyTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5097EB51BAA986C00D7E3FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5097EC01BAA986C00D7E3FD /* _____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5097EBB1BAA986C00D7E3FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5097EA01BAA986C00D7E3FD /* 神农本草经 */;
+			targetProxy = F5097EBA1BAA986C00D7E3FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5097EAD1BAA986C00D7E3FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5097EAE1BAA986C00D7E3FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5097EB21BAA986C00D7E3FD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5097EB31BAA986C00D7E3FD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5097EC11BAA986C00D7E3FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5097EC21BAA986C00D7E3FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5097EC41BAA986C00D7E3FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "神农本草经/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "神农本草经/神农本草经-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5097EC51BAA986C00D7E3FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "神农本草经/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "神农本草经/神农本草经-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		F5097EC71BAA986C00D7E3FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "神农本草经Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/神农本草经.app/神农本草经";
+			};
+			name = Debug;
+		};
+		F5097EC81BAA986C00D7E3FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "神农本草经Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/神农本草经.app/神农本草经";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5097E9C1BAA986C00D7E3FD /* Build configuration list for PBXProject "神农本草经" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5097EC11BAA986C00D7E3FD /* Debug */,
+				F5097EC21BAA986C00D7E3FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5097EC31BAA986C00D7E3FD /* Build configuration list for PBXNativeTarget "神农本草经" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5097EC41BAA986C00D7E3FD /* Debug */,
+				F5097EC51BAA986C00D7E3FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5097EC61BAA986C00D7E3FD /* Build configuration list for PBXNativeTarget "神农本草经Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5097EC71BAA986C00D7E3FD /* Debug */,
+				F5097EC81BAA986C00D7E3FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F5097EA81BAA986C00D7E3FD /* _____.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F5097EA91BAA986C00D7E3FD /* _____.xcdatamodel */,
+			);
+			currentVersion = F5097EA91BAA986C00D7E3FD /* _____.xcdatamodel */;
+			path = "_____.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F5097E991BAA986C00D7E3FD /* Project object */;
+}
